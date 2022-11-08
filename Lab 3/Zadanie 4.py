@@ -1,8 +1,8 @@
 a = int(input("podaj lieczbę a:"))
 b = int(input("podaj lieczbę b:"))
 
-if b<a:
-    a,b = b,a
+if b < a:
+    a, b = b, a
 
 while a <= b:
 
@@ -10,5 +10,5 @@ while a <= b:
         a = a + 1
 
         continue
-    print(a,end=" ")
+    print(a, end=" ")
     a = a + 1
